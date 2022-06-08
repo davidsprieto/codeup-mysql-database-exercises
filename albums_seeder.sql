@@ -1,5 +1,7 @@
 USE codeup_test_db;
 
+TRUNCATE albums;
+
 INSERT INTO albums (artist, name, release_date, genre, sales)
 VALUES ('Michael Jackson', 'Thriller', 1982, 'Pop, Rock, R&B', 47.3),
        ('AC/DC', 'Back in Black', 1980, 'Hard rock', 26.1),
@@ -32,3 +34,5 @@ VALUES ('Michael Jackson', 'Thriller', 1982, 'Pop, Rock, R&B', 47.3),
        ('Pink Floyd', 'The Wall', 1979, 'Progressive rock', 17.6),
        ('Santana', 'Supernatural', 1999, 'Rock', 20.5),
        ('Guns N'' Roses', 'Appetite for Destruction', 1987, 'Hard rock', 21.6);
+
+SELECT * FROM albums;
