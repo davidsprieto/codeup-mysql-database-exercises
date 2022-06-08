@@ -1,3 +1,4 @@
+# MySQL - Basic Statements: UPDATE exercises
 USE codeup_test_db;
 
 SELECT * FROM albums;

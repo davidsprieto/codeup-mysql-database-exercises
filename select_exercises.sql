@@ -1,3 +1,4 @@
+# MySQL - Basic Statements: SELECT exercises
 USE codeup_test_db;
 
 SELECT 'Album:' AS 'The name of all albums by Pink Floyd:', name FROM albums WHERE artist = 'Pink Floyd';

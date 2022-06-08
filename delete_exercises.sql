@@ -1,3 +1,4 @@
+# MySQL - Basic Statements: DELETE exercises
 USE codeup_test_db;
 
 SELECT 'Album:' AS 'Albums released before 1991:', name, artist FROM albums WHERE release_date > 1991;
