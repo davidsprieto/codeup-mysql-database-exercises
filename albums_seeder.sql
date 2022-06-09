@@ -37,3 +37,11 @@ VALUES ('Michael Jackson', 'Thriller', 1982, 'Pop, Rock, R&B', 47.3),
        ('Guns N'' Roses', 'Appetite for Destruction', 1987, 'Hard rock', 21.6);
 
 SELECT * FROM albums;
+
+ALTER TABLE albums
+ADD UNIQUE artist_album (artist, name);
+
+INSERT INTO albums (artist, name, release_Date, genre, sales)
+VALUES ('Pink Floyd', 'The Wall', 1979, 'Progressive Rock', 17.6);
+
+DESCRIBE albums;
