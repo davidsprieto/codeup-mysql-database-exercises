@@ -38,6 +38,7 @@ VALUES ('Michael Jackson', 'Thriller', 1982, 'Pop, Rock, R&B', 47.3),
 
 SELECT * FROM albums;
 
+# MySQL - Indexes exercises
 ALTER TABLE albums
 ADD UNIQUE artist_album (artist, name);
 
