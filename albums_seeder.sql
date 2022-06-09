@@ -42,6 +42,8 @@ SELECT * FROM albums;
 ALTER TABLE albums
 ADD UNIQUE artist_album (artist, name);
 
+# THIS PRINTS: [23000][1062] Duplicate entry 'Pink Floyd-The Wall' for key 'albums.artist_album'.
+# Meaning, the previous ALTER TABLE code above works as the intention is to prevent duplicate values from being entered.
 INSERT INTO albums (artist, name, release_Date, genre, sales)
 VALUES ('Pink Floyd', 'The Wall', 1979, 'Progressive Rock', 17.6);
 
