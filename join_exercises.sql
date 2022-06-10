@@ -64,7 +64,7 @@ USE employees;
 
 #2
 SHOW tables;
-SELECT * FROM departments;
+SELECT departments.dept_name FROM departments;
 SELECT * FROM dept_manager;
 
 SELECT departments.dept_name AS 'Department Name', CONCAT(first_name, ' ', last_name) AS 'Department Manager'
