@@ -108,7 +108,7 @@ FROM employees
 WHERE dept_manager.to_date = '9999-01-01' AND salaries.to_date = '9999-01-01'
 ORDER BY dept_name ASC;
 
-#6
+# Bonus
 SELECT CONCAT(employees.first_name, ' ', employees.last_name) AS 'Employee', d.dept_name AS 'Department', CONCAT(managers.first_name, ' ', managers.last_name) AS 'Manager'
 FROM employees
     JOIN dept_emp AS de
