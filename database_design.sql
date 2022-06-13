@@ -1,3 +1,4 @@
+# Database Design Specifications:
 CREATE DATABASE IF NOT EXISTS database_design_test_db;
 
 SHOW databases;
@@ -67,3 +68,27 @@ INSERT INTO ads (user_id, title, category, description) VALUES
 SELECT * FROM ads;
 SELECT * FROM users;
 
+# Database Design Queries:
+SELECT email
+FROM users
+WHERE id IN (
+    SELECT id
+    FROM ads
+    WHERE title = 'Giving Away Desk'
+);
+
+SELECT category
+FROM ads
+WHERE title = 'Selling Used Chair';
+
+SELECT *
+FROM ads
+WHERE category = 'furniture';
+
+SELECT *
+FROM ads
+WHERE user_id IN (
+    SELECT id
+    FROM users
+    WHERE first_name = 'Jim'
+);
