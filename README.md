@@ -1,4 +1,4 @@
-# Database Exercises - Codeup MySQL Exercises to Learn SQL!
+# Database Exercises - Codeup Repository to Learn SQL & MySQL!
 
 Programming Language:
 - SQL
