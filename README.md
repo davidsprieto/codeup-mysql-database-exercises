@@ -1,1 +1,1 @@
-<h1 align=center>Database Exercises - Codeup Repository to Learn SQL & MySQL</h1>
+<h1 align=center>Database Exercises - Codeup Repository for SQL & MySQL</h1>
